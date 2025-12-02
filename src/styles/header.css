@@ -1,0 +1,47 @@
+.header {
+  background: #ffffff;
+  height: 70px; /* Increased height slightly to match Sidebar brand area */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Pushes user info to the right */
+  padding: 0 30px;
+  position: fixed;
+  left: 240px; /* Must match Sidebar width */
+  right: 0;
+  top: 0;
+  z-index: 900; /* Lower than Sidebar (1000) but above content */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  transition: left 0.3s ease;
+}
+
+.header-user {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+  background: #f0f2f5;
+  padding: 8px 16px;
+  border-radius: 30px; /* Pill shape */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Add a user icon circle if needed later */
+.header-user::before {
+  content: '👤'; 
+  font-size: 1.1rem;
+  background: #fff;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .header {
+    left: 0; /* Full width on mobile if you hide sidebar */
+    padding: 0 15px;
+  }
+}

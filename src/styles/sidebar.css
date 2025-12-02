@@ -1,0 +1,89 @@
+/* Sidebar Container */
+.sidebar {
+  width: 240px;
+  height: 100vh; /* Full viewport height */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1e1e2d; /* Dark theme background */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Brand / Logo Area */
+.sidebar-brand {
+  height: 70px; /* Matches Header height */
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #161621; /* Slightly darker header part */
+  border-bottom: 1px solid #2d2d3f;
+}
+
+.sidebar-brand h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+/* Navigation Menu */
+.sidebar-menu {
+  list-style: none;
+  padding: 20px 10px;
+  margin: 0;
+  flex-grow: 1; /* Pushes footer to bottom */
+}
+
+.sidebar-menu li {
+  margin-bottom: 8px;
+}
+
+/* Links */
+.sidebar-menu a {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  color: #a2a3b7; /* Muted text color */
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Icons within links */
+.sidebar-menu a i {
+  font-size: 1.1rem;
+}
+
+/* Hover State */
+.sidebar-menu a:hover {
+  background-color: #2b2b40;
+  color: #fff;
+  transform: translateX(5px); /* Subtle slide effect */
+}
+
+/* Active State (matches NavLink "active" class) */
+.sidebar-menu a.active {
+  background-color: #0d6efd; /* Primary Blue */
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #2d2d3f;
+  background-color: #161621;
+}
+
+.sidebar-footer .text-muted {
+  color: #6c757d;
+  font-size: 0.75rem;
+}

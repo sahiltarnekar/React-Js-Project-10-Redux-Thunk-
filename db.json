@@ -1,0 +1,106 @@
+{
+  "Genres": [
+    {
+      "id": "g1",
+      "Genre_Name": "Action",
+      "status": "Active"
+    },
+    {
+      "id": "g2",
+      "Genre_Name": "Comedy",
+      "status": "Active"
+    },
+    {
+      "id": "g3",
+      "Genre_Name": "Sci-Fi",
+      "status": "Active"
+    },
+    {
+      "id": "g4",
+      "Genre_Name": "Horror",
+      "status": "Active"
+    },
+    {
+      "id": "g7",
+      "Genre_Name": "Animation",
+      "status": "Active"
+    },
+    {
+      "id": "g8",
+      "Genre_Name": "Thrillerr",
+      "status": "Active"
+    }
+  ],
+  "Movies": [
+    {
+      "id": "m2",
+      "title": "The Dark Knight",
+      "director": "Christopher Nolan",
+      "producer": "Charles Roven",
+      "releaseDate": "2008-07-18",
+      "genreId": "g1",
+      "image": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+      "id": "m9",
+      "title": "Avengers: Endgame",
+      "director": "Anthony Russo",
+      "producer": "Kevin Feige",
+      "releaseDate": "2019-04-26",
+      "genreId": "g1",
+      "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "description": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+    },
+    {
+      "id": "m10",
+      "title": "Get Out",
+      "director": "Jordan Peele",
+      "producer": "Sean McKittrick",
+      "releaseDate": "2017-02-24",
+      "genreId": "g4",
+      "image": "https://image.tmdb.org/t/p/w500/tFXcEccSQMf3lfhfXKSU9iRBpa3.jpg",
+      "description": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
+    },
+    {
+      "id": "m11",
+      "title": "Spider-Man: Into the Spider-Verse",
+      "director": "Bob Persichetti",
+      "producer": "Avi Arad",
+      "releaseDate": "2018-12-14",
+      "genreId": "g7",
+      "image": "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+      "description": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities."
+    },
+    {
+      "id": "m14",
+      "title": "Pathaan",
+      "director": "Siddharth Anand",
+      "producer": "Aditya Chopra",
+      "releaseDate": "2023-01-25",
+      "genreId": "g1",
+      "image": "https://image.tmdb.org/t/p/w500/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
+      "description": "An Indian agent races against a doomsday clock as a ruthless mercenary, with a bitter vendetta, mounts an apocalyptic attack against the country."
+    },
+    {
+      "id": "m15",
+      "title": "RRR",
+      "director": "S.S. Rajamouli",
+      "producer": "D.V.V. Danayya",
+      "releaseDate": "2022-03-24",
+      "genreId": "g1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU42Lkunqqtng9cwREZsDw4kLvyXkq7SpUlu2TNRkBFzApXoyqwAOAlfd5LxFPexhHkXCSnMHmz2GxFv932rkU8IAoSw71vmyLmQxnzRrO&s=10",
+      "description": "A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in 1920s."
+    },
+    {
+      "id": "m16",
+      "title": "Animal",
+      "director": "Sandeep Reddy Vanga",
+      "producer": "Bhushan Kumar",
+      "releaseDate": "2023-12-01",
+      "genreId": "g1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGR0MFd4o_3B6YhcSQUTgcXVAaq2vCpVaGize7XKRO02teRCghUaPSubw5adOZGYLAQWyliGUscMd_18zs8yt3hryWVOqcZC6Qk3QHpLk2g&s=10",
+      "description": "A son undergoes a remarkable transformation as the bond with his father begins to fracture, and he becomes consumed by a quest for vengeance."
+    }
+  ]
+}
