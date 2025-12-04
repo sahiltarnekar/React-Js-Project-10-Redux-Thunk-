@@ -41,16 +41,10 @@ const genreSlice = createSlice({
       .addCase(addGenre.fulfilled, (state, action) => {
         state.genres.push(action.payload);
       })
-      .addCase(getGenre.pending, (state) => {
-        state.loading = true;
-      })
+
       .addCase(getGenre.fulfilled, (state, action) => {
         state.loading = false;
         state.genres = action.payload;
-      })
-      .addCase(getGenre.rejected, (state, action) => {
-        state.loading = false;
-        state.error = action.error.message;
       })
       .addCase(deleteGenre.fulfilled, (state, action) => {
         state.genres = state.genres.filter((g) => g.id !== action.payload);

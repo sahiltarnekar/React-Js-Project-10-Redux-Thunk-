@@ -62,17 +62,12 @@ const movieSlice = createSlice({
       })
 
       // GET ALL
-      .addCase(getMovie.pending, (state) => {
-        state.loading = true;
-      })
+ 
       .addCase(getMovie.fulfilled, (state, action) => {
         state.loading = false;
         state.movies = action.payload;
       })
-      .addCase(getMovie.rejected, (state, action) => {
-        state.loading = false;
-        state.error = action.error.message;
-      })
+    
 
       // SINGLE MOVIE
       .addCase(getMovieById.fulfilled, (state, action) => {

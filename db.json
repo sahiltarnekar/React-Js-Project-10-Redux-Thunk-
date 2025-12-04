@@ -1,11 +1,6 @@
 {
   "Genres": [
     {
-      "id": "g1",
-      "Genre_Name": "Action",
-      "status": "Active"
-    },
-    {
       "id": "g2",
       "Genre_Name": "Comedy",
       "status": "Active"
@@ -28,6 +23,11 @@
     {
       "id": "g8",
       "Genre_Name": "Thrillerr",
+      "status": "Active"
+    },
+    {
+      "id": "19ae734cae1",
+      "Genre_Name": "Action",
       "status": "Active"
     }
   ],
@@ -83,16 +83,6 @@
       "description": "An Indian agent races against a doomsday clock as a ruthless mercenary, with a bitter vendetta, mounts an apocalyptic attack against the country."
     },
     {
-      "id": "m15",
-      "title": "RRR",
-      "director": "S.S. Rajamouli",
-      "producer": "D.V.V. Danayya",
-      "releaseDate": "2022-03-24",
-      "genreId": "g1",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU42Lkunqqtng9cwREZsDw4kLvyXkq7SpUlu2TNRkBFzApXoyqwAOAlfd5LxFPexhHkXCSnMHmz2GxFv932rkU8IAoSw71vmyLmQxnzRrO&s=10",
-      "description": "A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in 1920s."
-    },
-    {
       "id": "m16",
       "title": "Animal",
       "director": "Sandeep Reddy Vanga",
@@ -101,6 +91,16 @@
       "genreId": "g1",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzGR0MFd4o_3B6YhcSQUTgcXVAaq2vCpVaGize7XKRO02teRCghUaPSubw5adOZGYLAQWyliGUscMd_18zs8yt3hryWVOqcZC6Qk3QHpLk2g&s=10",
       "description": "A son undergoes a remarkable transformation as the bond with his father begins to fracture, and he becomes consumed by a quest for vengeance."
+    },
+    {
+      "id": "19ae735c507",
+      "title": "RRR",
+      "director": "S.S. Rajamouli",
+      "producer": "S.S. Rajamouli",
+      "releaseDate": "2026-01-01",
+      "genreId": "19ae734cae1",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU42Lkunqqtng9cwREZsDw4kLvyXkq7SpUlu2TNRkBFzApXoyqwAOAlfd5LxFPexhHkXCSnMHmz2GxFv932rkU8IAoSw71vmyLmQxnzRrO&s=10",
+      "description": "hi A fictitious story about two legendary revolutionaries and their journey away from home before they started fighting for their country in 1920s."
     }
   ]
 }
