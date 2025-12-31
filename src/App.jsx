@@ -1,8 +1,8 @@
 // App.jsx (No changes needed, just for reference)
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Routing from "./layout/Routing"; // This now imports the new Movie/Genre routes
-import Layout from "./layout/Layout";
+import Routing from "../src/Layout/Routing"; // This now imports the new Movie/Genre routes
+import Layout from "../src/Layout/Layout";
 import { ToastContainer } from "react-toastify";
 import "./styles/clean.css";
 import 'bootstrap-icons/font/bootstrap-icons.css';
